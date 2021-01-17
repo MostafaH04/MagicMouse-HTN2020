@@ -29,6 +29,7 @@ We used python libraries mainly including:
 3. Cannot Reach the edges with it
 4. Extremely inprecise
 5. Webcam is always on
+6. Crashes and Lags constantly
 
 # How to use:
 Since the code includes the prediction and training keys which should not be shared, we couldn't share the model itself, so we provided the savedmodel download, and the capture images python script which allows you to collect your own data set and allows you to test the amazing customvision.ai website where you could try training your own model.
