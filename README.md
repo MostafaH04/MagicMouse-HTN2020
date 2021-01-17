@@ -43,4 +43,9 @@ We used python libraries mainly including:
 Since the code includes the prediction and training keys which should not be shared, we couldn't share the model itself, so we provided the savedmodel download, and the capture images python script which allows you to collect your own data set and allows you to test the amazing customvision.ai website where you could try training your own model. 
 
 # ✉️ Contact Us!
-Feel free to reach out to us on discord if you want to ask us questions or want to learn more about the project
+Feel free to reach out to us on discord if you want to ask us questions or want to learn more about the project\n
+\n
+\n
+\n
+\n
+Emoji Source: https://emojipedia.org/
