@@ -14,8 +14,8 @@ import serial
 
 #Defining keys, ids and endpoint to access azure
 endpoint = "https://eastus.api.cognitive.microsoft.com/"
-training_key = "801a4d52997c4d1a867c367471484fe3"
-prediction_key = "135d863df7e042fcad1fb5d42c011edc"
+training_key = "<Training Key>"
+prediction_key = "<Prediction Key>"
 resource_id = "/subscriptions/557ea86a-5b35-49e6-8744-907bcc129f41/resourceGroups/HandClassifier/providers/Microsoft.CognitiveServices/accounts/HTN-Resource"
 
 credentials = ApiKeyCredentials(in_headers={"Training-key": training_key})
@@ -32,7 +32,7 @@ for p in projects:
         project = p
 
 #Gets the project q
-iterations = train.get_iterations("27fd7ed7-6ac0-402a-9896-a934561262b9") 
+iterations = train.get_iterations("<Project-ID>") 
 
 #Opens webcam
 vidFeed = cv2.VideoCapture(0)
@@ -54,10 +54,12 @@ while (vidFeed.isOpened()):
 
     #Writes the image as a folder to be used with customvision.ai
     cv2.imwrite("Temp_image.jpg", frame)
-
+    
+    iterationName = "HandPrediction-Py5"
+    
     #Gets the predictions based on the image
     with open("Temp_image.jpg", mode = "rb") as modelImage:
-        output = predict.detect_image(project.id, "HandPrediction-PyTest4", modelImage)
+        output = predict.detect_image(project.id, iterationName, modelImage)
     
    
 
