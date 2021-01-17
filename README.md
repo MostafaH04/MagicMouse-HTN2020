@@ -1,4 +1,4 @@
-[![Header](https://raw.githubusercontent.com/MostafaH04/MagicMouse-HTN2021/master/magicmouse.png "Header")](https://youtu.be/gNF4lBqouPQ)
+[![Header](https://raw.githubusercontent.com/MostafaH04/MagicMouse-HTN2021/master/magicmouse.png "Header")](https://magic-mouse.netlify.app/)
 
 # 🐱‍💻 MagicMouse-HTN2021
 Project for Hack The North 2021 ~ Touch screen capabilities on desktop
