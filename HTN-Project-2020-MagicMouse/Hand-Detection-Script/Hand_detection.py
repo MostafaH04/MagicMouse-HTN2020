@@ -103,7 +103,7 @@ while (vidFeed.isOpened()):
             fHeight = frame.shape[0]
             
             #Allows for scrolling
-            if height < 100:
+            if height/width < 0.6:
                 if (int(xPos + (width)/2) < fWidth/2):
                     pyautogui.scroll(100)
                 else:
