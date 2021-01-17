@@ -8,12 +8,12 @@ Project for Hack The North 2021 ~ Touch screen capabilities on desktop
 - Includes Hand Detection and Mouse controlling / Magic Mouse Script
 
 # <span style="color:blue"> Azure customvision.ai <span>
-<span style = "color:white">
+
 We used customvision.ai to create an object detection model, and was trained to detect hands using a custom dataset, collected using a python script\n
 - We created 7 Iterations
 - Total of 758 tagged Images (Overall)
 - Used well over 1000 Images to train and test the project
-<span>
+
 
 # Python
 We used python libraries mainly including:
