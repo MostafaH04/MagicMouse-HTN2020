@@ -44,8 +44,8 @@ Since the code includes the prediction and training keys which should not be sha
 
 # ✉️ Contact Us!
 Feel free to reach out to us on discord if you want to ask us questions or want to learn more about the project
-/n
-/n
-/n
-/n
+<br />
+<br />
+<br />
+<br />
 Emoji Source: https://emojipedia.org/
