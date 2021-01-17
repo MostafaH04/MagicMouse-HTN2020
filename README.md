@@ -14,6 +14,9 @@ We used customvision.ai to create an object detection model, and was trained to 
 - Total of 758 tagged Images (Overall)
 - Used well over 1000 Images to train and test the project
 
+Refrence Link(s): 
+https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/export-model-python?WT.mc_id=academic-10877-marouill
+
 
 # 🐍 Python
 We used python libraries mainly including:
