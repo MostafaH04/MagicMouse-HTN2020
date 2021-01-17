@@ -9,6 +9,7 @@ Project for Hack The North 2021 ~ Touch screen capabilities on desktop
 We used customvision.ai to create an object detection model, and was trained to detect hands using a custom dataset, collected using a python script\n
 - We created 7 Iterations
 - Total of 758 tagged Images (Overall)
+- Used well over 1000 Images to train and test the project
 
 # Python
 We used python libraries mainly including:
