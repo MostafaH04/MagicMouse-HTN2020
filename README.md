@@ -1,5 +1,5 @@
 # MagicMouse-HTN2021
-Project for Hack The North 2021
+Project for Hack The North 2021 ~ Touch screen capabilities on desktop
 
 - Includes savedmodel for the model created using Customvision.ai (Was not used in the project it self; just for refrence)
 - Includes script used to collect data from webcam
