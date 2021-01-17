@@ -48,4 +48,4 @@ Feel free to reach out to us on discord if you want to ask us questions or want 
 <br />
 <br />
 <br />
-Emoji Source: https://emojipedia.org/
+Emojis Source: https://emojipedia.org/
