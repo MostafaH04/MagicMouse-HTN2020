@@ -1,7 +1,7 @@
 [![Header](https://raw.githubusercontent.com/MostafaH04/MagicMouse-HTN2021/master/magicmouse.png "Header")](https://magic-mouse.netlify.app/)
 
 # 🐱‍💻 MagicMouse-HTN2021
-Project for Hack The North 2021 ~ Touch screen capabilities on desktop
+Project for Hack The North 2021 ~ Touch screen capabilities on desktop 
 
 - Includes savedmodel for the model created using Customvision.ai (Was not used in the project it self; just for refrence)
 - Includes script used to collect data from webcam
