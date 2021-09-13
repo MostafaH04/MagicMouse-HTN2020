@@ -1,7 +1,7 @@
 [![Header](https://raw.githubusercontent.com/MostafaH04/MagicMouse-HTN2021/master/magicmouse.png "Header")](https://magic-mouse.netlify.app/)
 
-# 🐱‍💻 MagicMouse-HTN2021
-Project for Hack The North 2021 ~ Touch screen capabilities on desktop 
+# 🐱‍💻 MagicMouse-HTN2021 
+Project for Hack The North 2021 ~ Touch screen capabilities on desktop  
 
 - Includes savedmodel for the model created using Customvision.ai (Was not used in the project it self; just for refrence)
 - Includes script used to collect data from webcam
@@ -31,7 +31,7 @@ We used python libraries mainly including:
 2. Would work better with sites that do not require percision, example: Youtube 
 3. Easy to use, simply raise ur hand so that it is seen by the webcam and simply move your mouse
 
-# 👎 Disadvantage:
+# 👎 Disadvantages:
 1. Hard to get used to
 2. Could be buggy when trying to click
 3. Cannot Reach the edges with it
