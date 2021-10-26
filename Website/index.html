@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>The Magic Mouse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="main-header">
+
+        <nav class="nav main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#demo"> Demonstration</a></li>
+                <li><a href="#product"> Product</a></li>
+                <li><a href="#about"> About</a></li>
+                <li><a href="#contact"> Contact</a></li>
+            </ul>
+        </nav>
+        <h1 class="title title-large">
+            Magic Mouse
+        </h1>
+    </header>
+    <section class="demo-sec container">
+        <h2 id="demo">
+            Video Demonstration
+        </h2>
+        <iframe width="1020" height="630" src="https://www.youtube.com/embed/gNF4lBqouPQ" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+        <div>
+            <button class="button" onclick=" window.open('https://github.com/MostafaH04/MagicMouse-HTN2021','_blank')">
+                Learn More</button>
+        </div>
+
+    </section>
+
+    <section class="product-sec container">
+        <h2 id="product">Product
+        </h2>
+        <div>
+            <p class="text">
+                Magic mouse is a product that we wanted to develop in order to change the way we interact with out
+                computers,
+                instead of having to use a mouse we can use a webcam and our hands in order to direct where the mouse
+                goes too,
+                this allows us to move around the computer pointer without having to hold our mouse. Currently, it is
+                far from perfect,
+                in fact it would be in its very early stages, however we find the idea that we could use a webcam to
+                control our mouse,
+                and other devices as well quite fascinating. So using what we learned about Microsoft’s custom vision
+                API from the microsoft workshop,
+                and research we did on how to integrate our models into our code using python, we are able to present to
+                you Magic Mouse.
+            </p>
+        </div>
+
+    </section>
+
+    <section class="about-sec container">
+        <h2 id="about">About
+        </h2>
+        <div class="about-whole">
+            <p class="text2"></p>
+
+            <h3 class="process">Process:</h3>
+
+            <div class="explain">First we developed multiple models on custom vision in order to detect mainly the palm
+                area of the
+                hand,
+                which later would allow us to get its coordinates and map it to control the mouse. To do so we collected
+                our
+                own data during the hackathon using our own python script that is able to collect thousands of images in
+                a
+                matter of a few minutes. Then, by hand selecting different images and marking where the hands were, we
+                were
+                able to create a few working iterations with decent accuracy in order to control the mouse.
+
+                Secondly, we created a python script that connects to azure’s cognitive services and connected us to the
+                iteration we wanted to use in order to predict the hand location. From there simply using the PyAutoGUI
+                library we were able to move the mouse based on the hand’s position.
+
+                Lastly, using an Arduino Uno and the PySerial Library, we tried adding a button for left and right
+                clicks,
+                which would often be controlled with the left mouse.
+            </div>
+            <h3 class="process">The Future:</h3>
+            <div class="explain">
+                In the future, Magic Mouse could certainly include other features that make it easier to control the
+                mouse, such as the ability to detect certain hand gestures. It should also definitely have a way of
+                keeping the control of the mouse precise, maybe focusing on one part of the hand would help with that.
+                Lastly, working on optimizing the program to run faster is also another idea to focus on in order to
+                improve the quality of the program.
+            </div>
+            <div class="creator">
+                <h3 class="creator">Creators:</h3>
+            </div>
+            Siddharth Nema, Mostafa Hussein, Vinesh Vivekanand, Armaan Rasheed
+        </div>
+        </p>
+
+        </div>
+
+    </section>
+
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h3 id="contact">
+                Magic Mouse
+            </h3>
+            <ul class="nav footer-nav">
+                <li>
+                    <a href="https://www.customvision.ai/" target="_blank">
+                        <img src="images/235-2350323_white-icon-office-365-png-white-icon-azure.png" width="30">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                        <img src="images/gifgit.png" 30">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
